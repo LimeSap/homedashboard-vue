@@ -1,0 +1,16 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "apexcharts.scss";
+
+html {
+	height: 100%;
+}
+
+body {
+	background: $body-bg;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	margin: 0;
+}

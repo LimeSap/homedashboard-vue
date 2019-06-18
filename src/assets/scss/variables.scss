@@ -1,0 +1,30 @@
+$body-bg: #000;
+
+$tile-w: 168px;
+
+$tile-bg: #35393b;
+$tile-margin: 8px;
+$tile-padding: 10px;
+$tile-radius: 6px;
+
+$tile-head-f-s: 14px;
+$tile-head-c: #fff;
+$tile-head-h: ($tile-head-f-s + ($tile-padding * 2));
+
+$tile-body-h: 50px;
+$tile-body-c: #ddd;
+$tile-body-f-s: 32px;
+
+$tile-h: ($tile-head-h + $tile-body-h);
+
+$tile-fg-c: rgba(255,255,255,0.3);
+$tile-fg-border: 2px solid #fff;
+
+
+$tile-inspector-head-h: 70px;
+$tile-inspector-body-h: 420px;
+$tile-inspector-bg: #151515;
+
+$tile-inspector-h: ($tile-inspector-head-h + $tile-inspector-body-h);
+
+$entity-history-h: 10px;
